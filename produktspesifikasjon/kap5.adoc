@@ -1,5 +1,5 @@
 // Start of UML-model
-=== Pakke: «ApplicationSchema» FKB-Lufthavn-5.0
+=== Pakke: «ApplicationSchema» FKB-Lufthavn-5.0.1
 *Definisjon:* datamodell for FKB-Lufthavn 5.0
  
 [discrete]
@@ -103,7 +103,7 @@ image::https://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Lufthavn/5.0/fig
 |[0..1]
  
 |Type: 
-|http://skjema.geonorge.no/SOSI/basistype/Punkt[Punkt]
+|http://skjema.geonorge.no/SOSI/basistype/GM_Point[GM_Point]
 |===
 [cols="20,80"]
 |===
