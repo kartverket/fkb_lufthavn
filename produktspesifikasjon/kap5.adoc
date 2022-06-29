@@ -37,7 +37,7 @@
 |http://skjema.geonorge.no/SOSI/produktspesifikasjon/FKB-Lufthavn/5.0
  
 |version
-|5.0
+|5.0.1
  
 |xmlns
 |app
@@ -57,8 +57,8 @@ image::diagrammer/Pakkerealisering.png[link=diagrammer/Pakkerealisering.png, alt
  
 '''
  
-.Hoveddiagram FKB-Lufthavn-5.0 
-image::diagrammer/Hoveddiagram FKB-Lufthavn-5.0.png[link=diagrammer/Hoveddiagram FKB-Lufthavn-5.0.png, alt="Diagram med navn Hoveddiagram FKB-Lufthavn-5.0 som viser UML-klasser beskrevet i teksten nedenfor."]
+.Hoveddiagram FKB-Lufthavn-5.0.1 
+image::diagrammer/Hoveddiagram FKB-Lufthavn-5.0.1.png[link=diagrammer/Hoveddiagram FKB-Lufthavn-5.0.1.png, alt="Diagram med navn Hoveddiagram FKB-Lufthavn-5.0.1 som viser UML-klasser beskrevet i teksten nedenfor."]
  
 '''
  
@@ -584,10 +584,10 @@ SOSI_navn: KVALITET +
 |<<fellesegenskaper,«FeatureType» Fellesegenskaper>>
  
 |Subtyper:
-|<<lufthavnlys,«FeatureType» Lufthavnlys>> +
+|<<rullebane,«FeatureType» Rullebane>> +
 <<helikopterlandingsplass,«FeatureType» Helikopterlandingsplass>> +
 <<taksebanegrense,«FeatureType» Taksebanegrense>> +
-<<rullebane,«FeatureType» Rullebane>> +
+<<lufthavnlys,«FeatureType» Lufthavnlys>> +
 |Realisering av: 
 |«ApplicationSchema» Generelle typer 5.1/SOSI_Fellesegenskaper og SOSI_Objekt::«FeatureType» SOSI_Objekt +
 |===
